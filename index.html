@@ -51,6 +51,55 @@
             </div>
         </div>
     </section>
+    <section class="opportunities">
+        <h2>Возможности</h2>
+        <div class="container">
+            <div class="oppo_grid">
+            <div class="oppo_item">
+                <img src="images/opportunity1.png" alt="Opportunity" class="grid_img1">
+                <div class="oppo_item_inside">
+                    <p class="p1_text">Поддерживает все валюты и карты</p>
+                    <p class="p2_text">Мы поддерживаем все популярные валюты и полностью настраиваем, чтобы добавить</p>
+                    <p class="p3_red">Подробнее</p>
+                </div>
+            </div>
+            <div class="oppo_item">
+                <img src="images/opportunity2.png" alt="Opportunity" class="grid_img2">
+                <div class="oppo_item_inside">
+                    <p class="p1_text">Управляйте своими расходами на ходу</p>
+                    <p class="p2_text">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+                    <p class="p3_red">Подробнее</p>
+                </div>
+            </div>
+            <div class="oppo_item">
+                <img src="images/opportunity3.png" alt="Opportunity" class="grid_img3">
+                <div class="oppo_item_inside">
+                    <p class="p1_text">Управление бюджетом осуществляется в облаке</p>
+                    <p class="p2_text">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом. </p>
+                    <p class="p3_red">Подробнее</p>
+                </div>
+            </div>
+            </div>
+            
+            <!-- <div class="oppo_text">
+            <div class="oppo_item1 oppo_item">
+                <p class="p1_text">Поддерживает все валюты и карты</p>
+                <p class="p2_text">Мы поддерживаем все популярные валюты и полностью настраиваем, чтобы добавить</p>
+                <p class="p3_red">Подробнее</p>
+            </div>
+            <div class="oppo_item2 oppo_item">
+                <p class="p1_text">Управляйте своими расходами на ходу</p>
+                <p class="p2_text">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+                <p class="p3_red">Подробнее</p>
+            </div>
+            <div class="oppo_item3 oppo_item">
+                <p class="p1_text">Управление бюджетом осуществляется в облаке</p>
+                <p class="p2_text">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом. </p>
+                <p class="p3_red">Подробнее</p>
+            </div>
+            </div> -->
+        </div>
+    </section>
     <div class="sidebar">
         <div class="mobile_menu">
         <div class="flex_left_m">
@@ -72,15 +121,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menuBtn = document.querySelector('.menu_btn_small');
     const sidebar = document.querySelector('.sidebar');
-    const closeBtn = document.querySelector('.close_btn'); // Add this line
+    const closeBtn = document.querySelector('.close_btn'); 
 
     menuBtn.addEventListener('click', function() {
         sidebar.classList.add('active');
     });
 
-    closeBtn.addEventListener('click', function() { // Add this line
-        sidebar.classList.remove('active'); // Add this line
-    });                                      // Add this line
+    closeBtn.addEventListener('click', function() {
+        sidebar.classList.remove('active'); 
+    });                                      
 });
     </script>
     </body>
