@@ -16,6 +16,8 @@
                     <img src="images/cloud-logo.svg" alt="CloudBudget" class="cloud_logo">
                     <span>CloudBudget</span>
                 </div>
+                <a class="menu_btn_small"><img src="images/berger.svg" alt="" class="sm1"></a>
+        
                 <ul class="ul_flex">
                     <li><a href="">Обзор</a></li>
                     <li><a href="">Особенности</a></li>
@@ -23,18 +25,51 @@
                     <li><a href="">Контакты</a></li>
                     <li><a href="">Войти</a></li>
                 </ul>
-                <div class="menu_btn"><a class="">Вход</a></div>
+                <div class="menu_btn">
+                    <a class="menu_btn_a">Вход</a>
+                </div>
             </div>
+            
             <h1>CloudBudget</h1>
-            <h2>Управление бюджетом в для всех. 
+            <h2>Управление бюджетом, для всех. 
                 Всего 69,95 € в месяц после 7-дневной 
                 пробной версии за 4,99 €</h2>
             <div class="down_btn">
                 <a>Попробовать</a>
             </div>
-
         </div>
     </header>
-    
-</body>
+    <div class="sidebar">
+        <div class="mobile_menu">
+        <div class="flex_left_m">
+            <img src="images/cloud-logo.svg" alt="CloudBudget" class="cloud_logo_m">
+            <span>CloudBudget</span>
+        </div>
+        <ul class="ul_flex2">
+          <li><a href="#">Обзор</a></li>
+          <li><a href="#">Особенности</a></li>
+          <li><a href="">Технология</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">Войти</a></li>
+        </ul>
+        <a href="https://t.me/abuadam07" class="mobile_a"><button class="mobile_menu_btn" id="mobile_menu_btn">Message me</button></a>
+        <button class="mobile_menu_btn close_btn">Close</button>
+      </div>
+    </div>
+      <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.querySelector('.menu_btn_small');
+    const sidebar = document.querySelector('.sidebar');
+    const closeBtn = document.querySelector('.close_btn'); // Add this line
+
+    menuBtn.addEventListener('click', function() {
+        sidebar.classList.add('active');
+    });
+
+    closeBtn.addEventListener('click', function() { // Add this line
+        sidebar.classList.remove('active'); // Add this line
+    });                                      // Add this line
+});
+    </script>
+    </body>
 </html>
