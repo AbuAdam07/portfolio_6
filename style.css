@@ -34,9 +34,9 @@ text-transform: uppercase;
 h2{
     color: rgb(0, 0, 0);
     font-family: "Josefin Sans", sans-serif;
-    font-size: 1.5em;
-    font-weight: 500;
-    line-height: 1.5em;
+    font-size: 2.15em;
+    font-weight: 600;
+    line-height: 1.35em;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -53,8 +53,8 @@ h4{
     color: rgb(255, 255, 255);
     font-family: "Josefin Sans", sans-serif;
     font-size: 0.875em;
-    font-weight: 400;
-    line-height: 140%;
+    font-weight: 500;
+    line-height: 121.3%;
     letter-spacing: 0%;
     text-align: justify;
 }
@@ -132,6 +132,7 @@ header .container{
     font-size: 0.85em;
     margin-left: 4%;
     font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
 }
 
 header h1{
@@ -140,12 +141,15 @@ header h1{
     margin-bottom: 0%;
     padding-bottom: 0;
 }
-header h2{
+header h3{
     color: #FFF;
     text-align: center;
     white-space: wrap;
     width: 35%;
     margin-top: -8%;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    line-height: 1.6em;
 }
 .down_btn{
     margin: 0 auto;
@@ -162,6 +166,7 @@ header h2{
     font-size: 0.85em;
     margin-top: 3.8%;
     margin-bottom: 50%;
+    cursor: pointer;
 }
 .menu_btn_small{
     display: none;
@@ -186,6 +191,39 @@ header h2{
     transform: translateX(0);
     left:0;
 }
+.easy {
+    margin-top: 8.7%;
+    margin-left: -6.4%;
+}
+.easy_flex {
+    display: flex;
+
+}
+.easy_left{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+
+}
+.easy_h2 {
+    margin-bottom: 7.5%;
+}
+.easy_h4 {
+    color: #000;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.easy_red_h4 {
+    color: var(--color3);
+    margin-left: 0%;
+
+}
+.easy_img {
+margin-top: -2.2%;
+margin-left: -10%;
+    
+}
+
 
 
 @media screen and (max-width:1024px){
@@ -229,13 +267,19 @@ header .container{
     margin-top: 4%;
     margin-left: 6%;
 }
-header h2{
+header h3{
     margin-top: -5%;
+    font-size: 1.25em;
+    line-height: 1.25em;
 }
 .down_btn{
     font-size: 0.8em;
     width: 20%;
 }
+.easy_img {
+    margin-top: -2.2%;
+    margin-left: -8%;
+    width: 30%;
 }
 @media screen and (max-width:750px){
     .flex_left{
@@ -345,7 +389,19 @@ line-height: 125%;
 }
 .down_btn{
     width: 30%;
-}}
+}
+header h3{
+    font-size: 1.15em;
+    line-height: 1.25em;
+}
+.easy_img {
+    margin-top: -2.2%;
+    margin-left: -5%;
+    width: 32%;}
+    .easy_left{
+        margin-left: 15%;
+    }
+}
 @media screen and (max-width:500px){
     header h2{
         width: 50%;
@@ -381,9 +437,11 @@ line-height: 125%;
     header h1{
         margin-top: 15%;
     }
-    header h2{
+    header h3{
         margin-top: 5%;
         width: 52%;
+        font-size: 1em;
+        line-height: 1.15em;
     }
     .ul_flex2{
         margin-left: 20%;
@@ -394,8 +452,34 @@ line-height: 125%;
     .flex_left_m{
         margin-left: 10%;
     }
+    .sidebar{
+        width: 80%;
+    }
+    .easy_flex{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .easy_img {
+        margin: 0 auto;
+        width: 70%;
+        margin-left: 20%;
+    }
+        .easy_left{
+            margin: 0 auto;
+            width: 80%;
+            align-self: center;
+            margin-left: 15%;
+        }
+        .easy_red_h4 {
+            margin: 0 auto;
+        }
+
 }
 @media screen and (max-width:360px){
+    .sidebar{
+        width: 80%;
+    }
     .ul_flex2{
         margin-left: 5%;
     }
