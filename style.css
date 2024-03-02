@@ -969,6 +969,18 @@ header h3{
     .sidebar{
         width: 80%;
     }
+    .down_btn{
+        margin-top: 20%;
+    }
+    .opportunities h2{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .easy_img{
+        margin: 0 auto;
+        margin-left: 17%;
+        align-self: center;
+    }
     .ul_flex2{
         margin-left: 5%;
     }
@@ -992,6 +1004,12 @@ header h3{
     .grid_img3{
         width: 85%;
     }
+    .p3_red{
+        margin-top: -2%;
+    }
+    .p2_text{
+        width: 90%;
+    }
     .p1_text{
         font-size: 0.75em;
         line-height: 0.85em;
@@ -1011,7 +1029,11 @@ header h3{
         margin-top: -14.3%;
     }
     .tech_item_inside{
-        margin-left: -5%;
+        margin-left: -8%;
+        margin-top: -18%;
+    }
+    .inside_2{
+        margin-top: -15%; 
     }
     .tech_p2{
         max-width: 70%;
