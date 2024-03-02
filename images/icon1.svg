@@ -1,0 +1,17 @@
+<svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip6_346">
+			<rect id="ion-logo-google-playstore" width="32.000000" height="32.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="ion-logo-google-playstore" width="32.000000" height="32.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip6_346)">
+		<path id="Vector" d="M3 3.71802L3 28.2805C3.00018 28.3337 3.01605 28.386 3.04572 28.4302C3.07532 28.4744 3.11737 28.509 3.16656 28.5295C3.21576 28.55 3.2699 28.5554 3.3222 28.5454C3.37451 28.5352 3.42267 28.5098 3.46063 28.4724L16.25 16L3.46063 3.52612C3.42267 3.48877 3.37451 3.46338 3.3222 3.45312C3.2699 3.44312 3.21576 3.44849 3.16656 3.46899C3.11737 3.4895 3.07532 3.52417 3.04572 3.56836C3.01605 3.61279 3.00018 3.66479 3 3.71802Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M21.6125 10.875L5.57629 2.04004L5.56628 2.03442C5.29004 1.88428 5.02753 2.25806 5.25378 2.47559L17.8244 14.4956L21.6125 10.875Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M5.255 29.5244C5.02747 29.7419 5.28998 30.1157 5.5675 29.9656L5.57751 29.96L21.6125 21.125L17.8243 17.5032L5.255 29.5244Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M28.0862 14.4375L23.6081 11.9712L19.3975 16L23.6081 20.0269L28.0862 17.5625C29.3043 16.8894 29.3043 15.1106 28.0862 14.4375Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

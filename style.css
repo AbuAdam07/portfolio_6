@@ -374,7 +374,133 @@ margin-left: -10%;
 .p1_2{
     margin-top: 2%;
 }
+.ready {
+    margin-top: 15.5%;
+}
+.ready_flex {
+    display: flex;
+    background-color: var(--color1);
 
+}
+.ready_right_img{
+    margin-right: 18%;
+    margin-top: 6.5%;
+    height: 50%;
+
+}
+.ready_left {
+    margin-left: 4.5%;
+}
+.ready_h2 {
+    color: #FFF;
+    margin-top: 18%;
+    width: 70%;
+    margin-bottom: 6%;
+
+}
+.ready_h4 {
+    width: 65%;
+    line-height: 1.5em;
+    margin-left: 15%;
+    margin-bottom: 6%;
+
+}
+.ready_svg {
+    margin-left: 15%;
+    margin-bottom: 15.5%;
+}
+.ready_icon {
+    margin-right: 3%;
+}
+.contact_us {
+    margin-top: 13%;
+}
+.contact_flex {
+    display: flex;
+}
+.contact_left {
+    margin-left: 12.2%;
+}
+.cont_h2 {
+    margin-bottom: 6%;
+}
+.cont_h4 {
+    color: #000;
+    width: 52%;
+    margin-left: 0%;
+    line-height: 1.25em;
+}
+.contact_right {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2%;
+}
+.cont_input {
+    border-radius: 5px;
+    width: 258%;
+    height: 250%;
+    margin-left: -205%;
+    padding: 20px;
+}
+.input1 {
+    margin-bottom: 11.8%;
+}
+.contact_left{
+    margin-right: 10%;
+}
+
+.cont_btn {
+    background-color: var(--color3);
+    color: #FFF;
+    margin-left: -205%;
+    width: 75.5%;
+    margin-top: 0%;
+    height: 55%;
+}
+footer{
+
+}
+footer .container{
+    text-align: left;
+    background-color: #FAFAFA;
+    margin-top: 2%;
+
+}
+.foot_ins{
+    margin-top: 5.2%;
+    margin-left: 11.5%;
+    
+}
+.footer_h3 {
+    color: #000;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 1.5%;
+}
+.footer_h4 {
+    margin: 0;
+    color: #000;
+    text-align: left;
+    width: 15%;
+    margin-bottom: 3.5%;
+}
+.footer_h4_2{
+    margin: 0;
+    text-align: left;
+    color: #000;
+    width: 20%;
+}
+
+@media screen and (max-width:1256px){
+    .cont_input {
+        width: 200%;
+    }
+}
+@media screen and (max-width:1200px){
+.ready_right_img{
+    margin-right: 11%;
+}
+}
 @media screen and (max-width:1070px){
     .p1_text{
         font-size: 1em;
@@ -469,6 +595,20 @@ header h3{
     margin-top: -6.3%;
     margin-left: -15%;
 }
+.ready_right_img{
+    height: 40%;
+    width: 37%;
+}
+.cont_btn{
+    width: 100%;
+}
+.foot_ins{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.footer_h4{
+    width: 18%;
+}
 }
 @media screen and (max-width:750px){
     .flex_left{
@@ -489,9 +629,7 @@ header h3{
     text-align: left;
     margin-left: 35%;
     margin-bottom: 15%;
-
 }
-
     .ul_flex2 li a{
         text-decoration: none;
         list-style: none;  
@@ -614,6 +752,43 @@ header h3{
     .ins4{
         margin-left: -12%;
     }
+    .ready_icon{
+        width: 8%;
+    }
+    .contact_flex{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact_left{
+        margin: 0 auto;
+    }
+    .cont_h2{
+        text-align: center;
+    }
+    .cont_h4{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        font-size: 1em;
+        margin-bottom: 10%;
+    }
+    .contact_right{
+
+    }
+    .cont_input{
+       align-self: center;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 7%;
+    }
+    .cont_btn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 15%;
+    }
+    .footer_h4{
+        width: 25%;
+    }
 
 }
 @media screen and (max-width:715px){
@@ -649,6 +824,14 @@ header h3{
     }
     .span4{
         margin-top: 25%;
+    }
+    .ready_flex{
+        flex-direction: column;
+    }
+    .ready_right_img{
+        width: 80%;
+        margin-bottom: 10%;
+        margin-top: -5%;
     }
 }
 @media screen and (max-width:500px){
@@ -758,6 +941,24 @@ header h3{
         .inside_1{
             margin-top: -13.5%;
         }
+        .ready{
+            margin-top: 28%;
+        }
+        .ready_left {
+            margin-top: -4%;
+        }
+        .ready_icon{
+            width: 5%;
+        }
+        .cont_btn{
+            width: 80%;
+        }
+        .footer_h4{
+            width: 30%;
+        }
+        .footer_h4_2{
+        width: 35%;
+    }
 
 }
 @media screen and (max-width:380px){
@@ -812,12 +1013,24 @@ header h3{
     .tech_item_inside{
         margin-left: -5%;
     }
+    .tech_p2{
+        max-width: 70%;
+    }
     .span3{
         margin-top: 50%;
     }
     .span4{
         margin-top: 50%;
     }
+    .ready{
+        margin-top: 35%;
+    }
+    .footer_h4{
+        width: 40%;
+    }
+    .footer_h4_2{
+    width: 45%;
+}
 }
 @media screen and (max-width:320px){
     .tech_span{
